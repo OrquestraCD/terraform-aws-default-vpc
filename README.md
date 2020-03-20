@@ -5,7 +5,7 @@
 
 ## Features
 
-This module...
+This module returns the subnet ids and vpc id for the defualt subnet.
 
 ## Terraform Versions
 
@@ -16,7 +16,9 @@ For Terraform v0.12.0+
 ```
 module "this" {
     source = "github.com/robc-io/terraform-aws-default-vpc"
-
+    tags = {
+        stuff = "things"
+    }
 }
 ```
 ## Examples
