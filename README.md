@@ -45,6 +45,7 @@ No issue is creating limit on this module.
 
 | Name | Description |
 |------|-------------|
+| public\_subnets | n/a |
 | subnet\_ids | n/a |
 | vpc\_id | n/a |
 
