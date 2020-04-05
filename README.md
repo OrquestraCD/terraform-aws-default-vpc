@@ -1,11 +1,11 @@
 # terraform-aws-default-vpc
 
-[![open-issues](https://img.shields.io/github/issues-raw/robc-io/terraform-aws-default-vpc?style=for-the-badge)](https://github.com/robc-io/terraform-aws-default-vpc/issues)
-[![open-pr](https://img.shields.io/github/issues-pr-raw/robc-io/terraform-aws-default-vpc?style=for-the-badge)](https://github.com/robc-io/terraform-aws-default-vpc/pulls)
+[![open-issues](https://img.shields.io/github/issues-raw/insight-infrastructure/terraform-aws-default-vpc?style=for-the-badge)](https://github.com/robc-io/terraform-aws-default-vpc/issues)
+[![open-pr](https://img.shields.io/github/issues-pr-raw/insight-infrastructure/terraform-aws-default-vpc?style=for-the-badge)](https://github.com/robc-io/terraform-aws-default-vpc/pulls)
 
 ## Features
 
-This module returns the subnet ids and vpc id for the defualt subnet.
+This module returns the subnet ids and vpc id for the defualt subnet. Generally used in tests as a drop in replacement for a full vpc. 
 
 ## Terraform Versions
 
@@ -15,7 +15,7 @@ For Terraform v0.12.0+
 
 ```
 module "this" {
-    source = "github.com/robc-io/terraform-aws-default-vpc"
+    source = "github.com/insight-infrastructure/terraform-aws-default-vpc"
     tags = {
         stuff = "things"
     }
@@ -23,7 +23,7 @@ module "this" {
 ```
 ## Examples
 
-- [defaults](https://github.com/robc-io/terraform-aws-default-vpc/tree/master/examples/defaults)
+- [defaults](https://github.com/insight-infrastructure/terraform-aws-default-vpc/tree/master/examples/defaults)
 
 ## Known  Issues
 No issue is creating limit on this module.
@@ -62,7 +62,7 @@ To run them:
 
 ## Authors
 
-Module managed by [robc-io](https://github.com/robc-io)
+Module managed by [insight-infrastructure](https://github.com/insight-infrastructure)
 
 ## Credits
 
